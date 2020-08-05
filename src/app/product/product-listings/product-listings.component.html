@@ -1,21 +1,29 @@
-<div class="container">
-  <div class="myclass">こんにちは</div>
-  <br>
-  <div class="row">
-    <!-- <div *ngFor="let picture of pictures"> -->
-    <div class="col-sm" *ngFor="let product of products;let productId = index">
-      <a [routerLink]="[product._id]">
-        <!-- /detail　→ detail とすることで相対パスにできる -->
-        <div class="card">
-          <!-- <img src={{picture.img}} class="card-img-top" alt="..."> -->
-          <img src="{{ product.coverImage }}" class="card-img-top" alt="...">
-          <div class="card-body">
-            <!-- <p class="card-text"> {{products[productId].description}} -->
-            <h5 class="card-title">{{product.name}}</h5>
-            <p class="card-text">{{ product.description }}</p>
+<div class="wrapper">
+
+  <div class="page-header page-header-xs" data-parallax="true"
+    style="background-image: url('./assets/img/img_bg_enoshima.jpeg');">
+    <!-- <div class="filter"></div> -->
+  </div>
+
+  <div class="container">
+    <div class="myclass"></div>
+    <br>
+    <div class="row">
+      <!-- <div *ngFor="let picture of pictures"> -->
+      <div class="col-sm" *ngFor="let product of products;let productId = index">
+        <a [routerLink]="[product._id]">
+          <!-- /detail　→ detail とすることで相対パスにできる -->
+          <div class="card">
+            <!-- <img src={{picture.img}} class="card-img-top" alt="..."> -->
+            <img src="{{ product.coverImage }}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <!-- <p class="card-text"> {{products[productId].description}} -->
+              <h5 class="card-title">{{product.name}}</h5>
+              <p class="card-text">{{ product.description }}</p>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   </div>
 </div>

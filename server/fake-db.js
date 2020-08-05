@@ -5,34 +5,40 @@ class FakeDb {
     this.products = [
       {
         coverImage: "./assets/img/img01.jpg",
-        name: 'Phone XL',
+        name: '森戸神社',
         price: 799,
-        description: 'A large phone with one of the best screens',
-        heading1: 'Phone XL サンプルheading1',
-        heading2: 'Phone XL サンプルheading2',
-        heading3: 'Phone XL サンプルheading3',
-        headingtext1: 'サンプルテキスト サンプルテキスト サンプルテキスト サンプルテキスト サンプルテキスト サンプルテキストサンプルテキスト サンプルテキスト サンプルテキストサンプルテキスト サンプルテキスト サンプルテキスト',
+        description: '潮が引いた海から見上げる冬の森戸神社',
+        heading1: '森戸神社サンプルヘッダ1',
+        heading2: '森戸神社サンプルヘッダ2',
+        heading3: '森戸神社サンプルヘッダ3',
+        headingtext1: 'sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample',
         headingtext2: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.',
-        headingtext3: 'サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト'
+        headingtext3: 'text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text '
       },
       {
         coverImage: "./assets/img/img02.jpg",
-        name: 'Phone Mini',
+        name: '夕暮れ江ノ島',
         price: 699,
-        description: 'A great phone with one of the best cameras',
-        heading1: 'Phone Mini heading1',
-        heading2: 'Phone Mini heading2',
-        heading3: 'Phone Mini heading3',
-        headingtext1: 'サンプルテキスト サンプルテキスト サンプルテキスト',
+        description: '日が落ちるまで海で遊ぶ兄弟。',
+        heading1: '江ノ島サンプルヘッダ1',
+        heading2: '江ノ島サンプルヘッダ2',
+        heading3: '江ノ島サンプルヘッダ3',
+        headingtext1: 'sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample',
         headingtext2: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.',
-        headingtext3: 'サンプルテキストサンプルテキストサンプルテキスト'
+        headingtext3: 'text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text '
 
       },
       {
         coverImage: "./assets/img/img03.jpg",
-        name: 'Phone Standard',
+        name: '辻堂海岸の朝焼け',
         price: 299,
-        description: 'description for Phone Standard'
+        description: 'description for Phone Standard',
+        heading1: '辻堂海岸サンプルヘッダ1',
+        heading2: '辻堂海岸サンプルヘッダ2',
+        heading3: '辻堂海岸サンプルヘッダ3',
+        headingtext1: 'sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample sample',
+        headingtext2: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.',
+        headingtext3: 'text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text '
       },
       {
         coverImage: "./assets/img/phone-cover.jpg",
